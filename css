@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jack Mart - Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo">
+            JACK <span>MART</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="categories.html">Categories</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">🛒 Cart</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ADMIN DASHBOARD -->
+
+    <section class="admin-section">
+
+        <h2>Admin Dashboard</h2>
+
+        <p class="section-text">
+            Manage users, products and orders.
+        </p>
+
+
+        <!-- ADMIN SUMMARY -->
+
+        <div class="admin-cards">
+
+            <div class="admin-card">
+                <h3>Total Users</h3>
+                <p>120</p>
+            </div>
+
+            <div class="admin-card">
+                <h3>Total Sellers</h3>
+                <p>35</p>
+            </div>
+
+            <div class="admin-card">
+                <h3>Total Products</h3>
+                <p>250</p>
+            </div>
+
+            <div class="admin-card">
+                <h3>Total Orders</h3>
+                <p>480</p>
+            </div>
+
+        </div>
+
+
+        <!-- USER MANAGEMENT -->
+
+        <div class="admin-container">
+
+            <div class="admin-panel">
+
+                <h3>User Management</h3>
+
+                <div class="admin-row">
+
+                    <div>
+                        <strong>Arun Kumar</strong>
+                        <p>Buyer | arun@gmail.com</p>
+                    </div>
+
+                    <button>View</button>
+
+                </div>
+
+
+                <div class="admin-row">
+
+                    <div>
+                        <strong>Priya</strong>
+                        <p>Seller | priya@gmail.com</p>
+                    </div>
+
+                    <button>View</button>
+
+                </div>
+
+
+                <div class="admin-row">
+
+                    <div>
+                        <strong>Rahul</strong>
+                        <p>Buyer | rahul@gmail.com</p>
+                    </div>
+
+                    <button>View</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT MANAGEMENT -->
+
+            <div class="admin-panel">
+
+                <h3>Product Management</h3>
+
+                <div class="admin-row">
+
+                    <div>
+                        <strong>Pro Running Shoe</strong>
+                        <p>Running | ₹2,999</p>
+                    </div>
+
+                    <button>View</button>
+
+                </div>
+
+
+                <div class="admin-row">
+
+                    <div>
+                        <strong>Professional Football</strong>
+                        <p>Football | ₹1,499</p>
+                    </div>
+
+                    <button>View</button>
+
+                </div>
+
+
+                <div class="admin-row">
+
+                    <div>
+                        <strong>Premium Cricket Bat</strong>
+                        <p>Cricket | ₹3,499</p>
+                    </div>
+
+                    <button>View</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ORDER MANAGEMENT -->
+
+        <div class="admin-panel orders-panel">
+
+            <h3>Recent Orders</h3>
+
+            <div class="admin-row">
+
+                <div>
+                    <strong>Order #JM1001</strong>
+                    <p>Pro Running Shoe | ₹2,999</p>
+                </div>
+
+                <span class="admin-status delivered">
+                    Delivered
+                </span>
+
+            </div>
+
+
+            <div class="admin-row">
+
+                <div>
+                    <strong>Order #JM1002</strong>
+                    <p>Professional Football | ₹2,998</p>
+                </div>
+
+                <span class="admin-status shipped">
+                    Shipped
+                </span>
+
+            </div>
+
+
+            <div class="admin-row">
+
+                <div>
+                    <strong>Order #JM1003</strong>
+                    <p>Premium Cricket Bat | ₹3,499</p>
+                </div>
+
+                <span class="admin-status pending">
+                    Pending
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>JACK MART</h2>
+
+            <p>Your Complete Sports Marketplace</p>
+
+            <p>© 2026 Jack Mart. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
